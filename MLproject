@@ -1,0 +1,11 @@
+name: pytorch_train_service
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      learning_rate: {type: float, default: 0.001}
+      epochs: {type: int, default: 5}
+    command: >
+      python train.py --learning_rate {learning_rate} --epochs {epochs}
