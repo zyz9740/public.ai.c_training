@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_BUILD_TYPE Release)
 
 # 查找 CURL 库
-set(CMAKE_PREFIX_PATH "path/to/vcpkg/installed/x64-windows")
-# set(CMAKE_PREFIX_PATH "C:/Users/intel/Desktop/vcpkg/installed/x64-windows")
+# set(CMAKE_PREFIX_PATH "path/to/vcpkg/installed/x64-windows")
+set(CMAKE_PREFIX_PATH "C:/Users/intel/Desktop/vcpkg/installed/x64-windows")
 
 find_package(CURL REQUIRED)
 
