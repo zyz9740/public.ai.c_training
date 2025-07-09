@@ -58,7 +58,7 @@ def start_training(num_epochs: int = 10,
                     momentum: float = 0.9
                     ) -> tuple:
     print("Starting Training...")
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    device = torch.device("xpu" if torch.xpu.is_available() else "cpu")
     print(f"Training Device: {device}")
     # 数据预处理（标准化和数据增强）
     transform = transforms.Compose([
