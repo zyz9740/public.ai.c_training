@@ -4,3 +4,4 @@ mlruns
 mlartifacts
 **/build/
 */checkpoint.pth
+**/training_outputs
