@@ -12,8 +12,7 @@ conda activate train-env
 
 # 启动服务
 uvicorn app:app --host 0.0.0.0 --port 8000 --reload
-```
-
+```s
 # 客户端调用示例
 
 ## 快速训练调用脚本
@@ -35,9 +34,9 @@ download vcpkg from https://learn.microsoft.com/en-us/vcpkg/get_started/get-star
 ```cmd
 vcpkg install curl
 ```
-
-set git clone vcpkg path in CMakeLists.txt:7 
-Set environment path in path\to\vcpkg\installed\x64-windows\debug\bin or path\to\vcpkg\installed\x64-windows\bin
+After install curl
+- Set git clone vcpkg path in CMakeLists.txt:7
+- Set environment path in `path\to\vcpkg\installed\x64-windows\debug\bin` or `path\to\vcpkg\installed\x64-windows\bin` to find dll
 
 ## Build
 ```cmd
