@@ -1,3 +1,6 @@
 __pycache__
 datasets
 mlruns
+mlartifacts
+**/build/
+*/checkpoint.pth
