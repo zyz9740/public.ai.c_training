@@ -84,8 +84,8 @@ build/main
 ```
 
 ```
-Training Device: cuda:0
 Starting Training...
+Training Device: xpu
 
 Epoch: 1/3, Batch: 100/391, Loss: 1.4052, Accuracy: 37.27%
 Epoch: 1/3, Batch: 200/391, Loss: 1.2210, Accuracy: 45.99%
